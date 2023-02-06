@@ -106,9 +106,18 @@ img {
 
 /*----------Studio Page Header---------*/
 .studio-page-header {
-    background-color: var(--navy-blue-color);
+    max-width: 1440px;
+    max-height: 600px;
     padding-top: 188px;
     padding-bottom: 188px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image:
+    linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),
+    url(../images/studio/bg-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .studio-page-header-content {
@@ -196,6 +205,16 @@ img {
     width: 264px;
 }
 
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(244, 244, 253, 1);
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+}
+
 .features-card-items,
 .direction-items,
 .team-card-items,
@@ -221,6 +240,24 @@ img {
 /*-----Teams Section-----*/
 .team {
     background-color: var(--cloud-color);
+}
+
+.team-card-icons {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    border: 1px solid #999999;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(77, 90, 229, 1);
+
+}
+
+.icon-insta {
+    display: flex;
+    align-items: center;
+    fill: rgba(244, 244, 253, 1);
 }
 
 .team-card-items {
@@ -336,11 +373,13 @@ img {
 
 /*------------*/
 .container {
-    width: 1158px;
+    width: 100%;
+    max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    align-items: center;
 }
 
 .text-center {
