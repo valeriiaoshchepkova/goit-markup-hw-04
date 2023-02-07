@@ -244,7 +244,7 @@ img {
     background-color: var(--cloud-color);
 }
 
-.team-card-icons {
+.team-card-icons { 
     width: 40px;
     height: 40px;
     display: flex;
@@ -256,15 +256,13 @@ img {
 
 }
 
-.traling-icons {
-    width: 232px;
-        height: 40px;
-        padding: 0;
+.team-card-social.list {
+  justify-content: center;
 display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    gap: 24px;
+        margin-top: 8px;
 }
+
 
 .team-card-items {
     display: flex;
@@ -277,6 +275,38 @@ display: flex;
     border-radius: 0px 0px 4px 4px;
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
+
+/*------Customers---------*/
+.customers-company-title {
+display: flex;
+justify-content: center;
+margin-top: 130px;
+        font-size: 36px;
+        line-height: calc(40/36);
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--navy-blue-color);
+}
+
+.customers-company-list{
+    display: flex;
+    justify-content:center;
+    gap: 24px;
+    margin-top: 72px;
+    margin-bottom: 120px;
+
+}
+.customers-company-icon {
+    display: block;
+    padding: 16px 32px;
+    width: 168px;
+    height: 88px;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+
+}
+
+
 
 /*------------Portfolio Section---------*/
 
