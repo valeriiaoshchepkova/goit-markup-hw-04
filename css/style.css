@@ -272,7 +272,6 @@ img {
 }
 .team-card-items {
     display: flex;
-    flex-wrap: wrap;
     margin-top: 72px;
 }
 .team-card-item {
