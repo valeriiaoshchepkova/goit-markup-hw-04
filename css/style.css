@@ -151,6 +151,21 @@ img {
     width: 264px;
 }
 
+.social-media.list {}
+
+.social-media-icons {}
+
+.social-media-text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height:calc(24/16);
+
+        letter-spacing: 0.02em;
+    
+        color: #FFFFFF;
+}
+
+
 /*-----------Links------------*/
 .link {
     text-decoration: none;
