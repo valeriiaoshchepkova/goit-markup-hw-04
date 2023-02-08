@@ -11,7 +11,8 @@
     --ocean-color: #404BBF;
     --iris-color: #4D5AE5;
     --cloud-color: #F4F4FD;
-    --cornflower-color: #E7E9FC
+    --cornflower-color: #E7E9FC;
+    --green-color:#31D0AA;
 }
 
 body {
@@ -151,18 +152,41 @@ img {
     width: 264px;
 }
 
-.social-media.list {}
+.footer-wrapper{
+    display: flex;
+}
 
-.social-media-icons {}
+.social-media-container {
+    margin-left: 120px;
+}
+
+
+.social-media{
+    display: flex;
+    padding-top: 16px;
+    gap: 16px;
+
+}
+.social-media-link {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        justify-content: center;
+            align-items: center;
+}
+.social-media-link:hover,
+.social-media-link:focus{
+    background-color: var(--green-color);
+}
 
 .social-media-text {
         font-weight: 500;
         font-size: 16px;
         line-height:calc(24/16);
-
         letter-spacing: 0.02em;
-    
-        color: #FFFFFF;
+        color: var(--body-background-color);
 }
 
 
